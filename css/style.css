@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: royalblue;
+}
+.basic{
+    background-color: white;
+    width: 800px;
+    height: 600px;
+    border-radius: 15px;
+    padding: 20px;
+}
+h2{
+    font-size: 40px;
+    margin: 40px 0;
+}
+.dataEntry{
+    display: flex;
+}
+#inputValue{
+    width: 500px;
+}
+button{
+    height: 20px;
+    width: 50px;
+    margin: 18px 0 0 20px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.page>.basic>.dataOutput>.buttons>button:nth-child(1){
+    width: 150px;
+}
+.page>.basic>.dataOutput>.buttons>button:nth-child(2){
+    width: 150px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+.dataOutput{
+    display: flex;
+
+}
+.output{
+    width: 500px;
+    height: 300px;
+
+    margin-top: 18px;
+}
+#outputList{
+    border: gray solid 1px;
+    width: 100%;
+    height: 100%;
+}
+p{
+    color: darkgray;
+}
+.item{
+    cursor: pointer;
+}
+.item.select{
+    background-color: deepskyblue;
+    color: white;
+}

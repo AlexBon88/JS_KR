@@ -1,0 +1,28 @@
+@media screen and (max-width: 481px){
+    h2{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .dataEntry{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .basic{
+        width: 90%;
+    }
+    #inputValue{
+        width: 350px;
+    }
+    button{
+        margin: 10px 0;
+    }
+    .dataOutput{
+        flex-direction: column;
+    }
+    .output{
+        width: 350px;
+        height: 200px;
+        margin-top: 0;
+    }
+}

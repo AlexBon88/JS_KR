@@ -1,0 +1,16 @@
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    .basic{
+        width: 600px;
+        height: 400px;
+    }
+    #inputValue{
+        width: 390px;
+    }
+    h2{
+        font-size: 26px;
+        margin: 20px 0;
+    }
+    .output{
+        height: 200px;
+    }
+}

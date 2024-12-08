@@ -1,0 +1,13 @@
+@media screen and (min-width: 481px) and (max-width: 768px){
+    h2{
+        font-size: 30px;
+        margin: 20px 0;
+    }
+    .basic{
+        width: 470px;
+    }
+    #inputValue{
+        width: 260px;
+    }
+
+}
